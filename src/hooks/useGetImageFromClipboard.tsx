@@ -22,5 +22,6 @@ export function useGetImageFromClipboard() {
   return {
     clipboardImage,
     getImagefromClipboard,
+    setClipboardImage,
   };
 }

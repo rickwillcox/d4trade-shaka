@@ -5,5 +5,5 @@ interface Props {
 export default function ItemImage(props: Props) {
   const { img } = props;
 
-  return img && <img src={img} />;
+  return img && <img src={img} className="max-h-80" />;
 }
