@@ -4,7 +4,7 @@ import ItemImage from "./ItemImage";
 import { Button, Input } from "@chakra-ui/react";
 
 import { useGlobalAlert } from "@/hooks/useGlobalAlert";
-import { GlobalAlert } from "./GlobalAlert/GlobalAlert";
+import { GlobalAlert } from "./GlobalAlert";
 
 export default function ItemUploadContainer() {
   const { clipboardImage, setClipboardImage, getImagefromClipboard } =

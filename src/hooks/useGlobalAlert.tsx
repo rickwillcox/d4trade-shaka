@@ -1,4 +1,4 @@
-import { GlobalAlertDetails } from "@/components/GlobalAlert/GlobalAlert";
+import { GlobalAlertDetails } from "@/components/GlobalAlert";
 import { useDisclosure } from "@chakra-ui/react";
 import { useState } from "react";
 
